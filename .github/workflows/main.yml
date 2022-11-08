@@ -3,9 +3,9 @@ name: test_chatbot
 
 # 発火タイミング
 on:
-   push
- # schedule:
-   #  - cron: '0 3 * * 2'
+  # push
+  schedule:
+     - cron: '0 3 * * 2'
   
 
 jobs:
